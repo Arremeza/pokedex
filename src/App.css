@@ -1,38 +1,61 @@
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+span {
+  color: aliceblue;
+  font-weight: 700;
+}
+p {
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pokedex-img {
+  width: 200px;
+}
+.info {
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
+  width: 400px;
+  min-height: 600px;
+  background-color: red;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+.pokemon-name {
+  text-transform: capitalize;
+}
+.pokemon-container {
+  width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.stats-container {
+  width: 300px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.pokemon-type {
+  text-transform: capitalize;
+  margin-left: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pokemon-ability {
+  text-transform: capitalize;
+  margin-left: 25px;
 }
+.pokemon-image {
+  background-color: azure;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
